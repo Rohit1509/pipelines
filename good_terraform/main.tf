@@ -22,3 +22,7 @@ resource "aws_s3_bucket_versioning" "versioning_example" {
     status = "Enabled"
   }
 }
+
+resource "aws_s3_bucket" "b1" {
+  bucket = "my-tf-test-bucket-chdgc"
+}
